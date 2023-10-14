@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>600</y>
+      <width>113</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{ background-color:rgb(202, 255, 227);
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+selection-background-color: darkgray;
+font-size: 16px;}
+QLineEdit:focus { background-color:rgb(192, 192, 255);}</string>
+    </property>
+    <property name="text">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>600</y>
+      <width>113</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{ background-color:rgb(202, 255, 227);
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+selection-background-color: darkgray;
+font-size: 16px;}
+QLineEdit:focus { background-color:rgb(192, 192, 255);}</string>
+    </property>
+    <property name="text">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>600</y>
+      <width>113</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{ background-color:rgb(202, 255, 227);
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+selection-background-color: darkgray;
+font-size: 16px;}
+QLineEdit:focus { background-color:rgb(192, 192, 255);}</string>
+    </property>
+    <property name="text">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>601</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiBold</family>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Аукцион знаний</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>560</y>
+      <width>254</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #f0e40a;
+background-color: rgb(0, 0, 0);
+ border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:15px;
+                                             border-color: #72a8ba;
+                                             max-width:250px;
+                                             max-height:30px;
+                                             
+                                           
+                                             min-width:250px;
+                                             min-height:30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>560</y>
+      <width>254</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #f0e40a;
+color : #f0e40a;
+background-color: rgb(0, 0, 0);
+ border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:15px;
+                                             border-color: #72a8ba;
+                                             max-width:250px;
+                                             max-height:30px;
+                                             
+                                           
+                                             min-width:250px;
+                                             min-height:30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>560</y>
+      <width>254</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #f0e40a;
+color : #f0e40a;
+background-color: rgb(0, 0, 0);
+ border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:15px;
+                                             border-color: #72a8ba;
+                                             max-width:250px;
+                                             max-height:30px;
+                                             
+                                           
+                                             min-width:250px;
+                                             min-height:30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                           
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Саботаж</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Джокер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Без очереди</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Саботаж</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Джокер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Без очереди</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Саботаж</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Джокер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>650</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: #50cc6f;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+ max-width:70px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:70px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Без очереди</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>650</y>
+      <width>104</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Moscow Sans Regular</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+                                              color: #1e0eb0;
+                                              background-color: yellow;
+                                              border-style: solid;
+                                             border-radius:50px;
+                                             border-style: solid;
+                                             border-width:2px;
+                                             border-radius:20px;
+                                             border-color: #72a8ba;
+                                            max-width:100px;
+                                             max-height:70px;
+                                             
+                                            
+                                             min-width:100px;
+                                             min-height:70px;
+                                            
+                                              }</string>
+    </property>
+    <property name="text">
+     <string>Продолжить</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
